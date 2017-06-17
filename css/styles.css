@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800');
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+.navbar-inverse {
+  height: 14%!important;
+  font-size: 130%;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #21069c!important;
+    background-color: #f5ff06!important;}
+
+.navbar-inverse .navbar-nav>li>a {
+        color: #286090!important;
+    }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #0d0c5c!important;
+  }
+
+.emailSignUp{
+  text-align: center;
+}
+.departments{
+    background-color: #0d0c5c;;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+.departments .col-md-1{
+    padding-left: 5%;
+    text-align: center;
+}
+.navbar-inverse {
+  background-color: white!important;
+  border-color: white!important;
+}
+
+#map{
+	margin-top: 10%;
+}
+.btn-primary {
+    color: #e8ff00!important;
+    background-color: #1f335d!important;}
+
+  form{
+    padding: 10%;
+    margin-top: -10%;
+  }
+
+
+.return{
+  padding-top: 10%;
+}
+
+.featurette-heading{
+  font-weight: : 400!important;
+}
+.text-muted{
+  color: #131f47!important;
+  font-weight: 800;
+}
+
+
+#faqAccordion{
+	margin-top: 12%;
+}
+
+.carousel {
+    MARGIN-TOP: 7%!important;
+  }
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+/**
+ *  The following is not really needed in this case
+ *  Only to demonstrate the usage of @media for large screens
+ */
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
